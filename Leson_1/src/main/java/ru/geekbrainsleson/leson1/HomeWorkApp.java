@@ -7,7 +7,7 @@ public class HomeWorkApp {
     printColor();
     compareNumbers();
     System.out.println("\nЗадание с *\n");
-    double herpotenuse = getHypotenuseLength(3.4,2.7);
+    double herpotenuse = getHypotenuseLength(3.5,2);
         System.out.println("Длинна гепотинузы равна: "+herpotenuse);
     }
 
