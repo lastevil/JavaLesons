@@ -6,6 +6,9 @@ public class HomeWorkApp {
     checkSumSign();
     printColor();
     compareNumbers();
+    System.out.println("\nЗадание с *\n");
+    double herpotenuse = getHypotenuseLength(3.4,2.7);
+        System.out.println("Длинна гепотинузы равна: "+herpotenuse);
     }
 
     private static void printThreeWords(){
@@ -55,5 +58,9 @@ public class HomeWorkApp {
         else{
             System.out.println("a<b");
         }
+    }
+    public static double getHypotenuseLength(double a, double b){
+        //Длинна гепотинузы равна корню из суммы квадратов катетов
+        return Math.sqrt((a*a)+(b*b));
     }
 }
